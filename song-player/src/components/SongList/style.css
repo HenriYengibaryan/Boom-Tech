@@ -1,0 +1,44 @@
+.globalWindow{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.songList{
+    display: flex;
+    flex-direction: column;
+    width: 56vw;
+    height: 60vh;
+    align-content: center;
+    background-color:white;
+    max-height: 60vh;
+    overflow-y: scroll hidden;
+}
+
+
+.uploadContent{
+    border-radius: 4px;
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    justify-content: space-around;
+    
+}
+
+
+.tableList:hover{
+background-color: #EEEEEE;
+}
+
+.tableList th{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+    

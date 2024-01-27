@@ -1,0 +1,35 @@
+.playAllContainer {
+  margin: 0;
+  padding: 0;
+  height: 34px;
+  margin-bottom: 2.4px;
+  display: flex;
+  margin-right: 5px;
+}
+
+.playAllButton {
+  margin-left: 2px;
+  background-color: #f6f6f6;
+  align-items: center;
+  margin-bottom: 15px;
+  justify-content: space-evenly;
+  border: 1px solid #777;
+  width: 92px;
+  height: 5vh;
+  border-radius: 2px;
+  font-weight: 600;
+  display: flex;
+  color: #56616a;
+}
+
+.arrowDownIcon {
+  border-left: none;
+  border-radius: 2px;
+  background-color: #f6f6f6;
+  border: 1px solid #777;
+  height: 33.5px;
+  padding-left: 4px;
+  align-content: center;
+  margin-right: 5px;
+  width: 20px;
+}

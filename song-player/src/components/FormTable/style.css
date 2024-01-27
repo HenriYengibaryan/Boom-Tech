@@ -1,0 +1,39 @@
+.formTable {
+  margin-top: 10px;
+  height: 6vh;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 600;
+}
+
+.tableHead {
+  align-content: center;
+  align-items: center;
+  font-weight: 0;
+  font-size: 13px;
+  color: #796d66;
+  margin: 1px;
+  height: 5vh;
+  background-color: #eeeeee;
+  border: #eeeeee 0.2px;
+}
+
+.tableHead-1 {
+  width: 65px;
+}
+
+.tableHead-2,
+.tableHead-3 {
+  width: 255px;
+}
+
+.tableHead-4 {
+  width: 75px;
+}
+
+.tableHead-5 {
+  width: 106px;
+}

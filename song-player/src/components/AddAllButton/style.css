@@ -1,0 +1,56 @@
+.addAllContainer {
+  margin-left: 4px;
+  padding: 0;
+  height: 34px;
+  margin-bottom: 2.5px;
+  display: flex;
+}
+
+.modalButton {
+  align-items: center;
+  background-color: #f6f6f6;
+  margin-bottom: 15px;
+  justify-content: space-evenly;
+  border: solid #777777 1px;
+  width: 96px;
+  height: 5vh;
+  border-radius: 2px;
+  font-weight: 600;
+  display: flex;
+  color: #56616a;
+  border-right: solid #777777 1px;
+}
+
+.svgUpload {
+  border-left: none;
+  border-radius: 2px;
+  background-color: #f6f6f6;
+  border: solid #777777 1px;
+  height: 34px;
+  padding-left: 4px;
+  align-content: center;
+  margin-right: 5px;
+  width: 20px;
+}
+
+.addUpload {
+  width: 100%;
+  z-index: 99;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(234, 233, 233, 0.4);
+}
+
+.modalUpload {
+  width: 302px;
+  height: 227px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(89, 89, 89, 0.894);
+  z-index: 2;
+  border-radius: 6px;
+}
